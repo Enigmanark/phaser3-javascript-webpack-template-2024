@@ -1,0 +1,22 @@
+{
+    "name": "phaser3-javascript-webpack-template-2024",
+    "version": "1.0.0",
+    "description": "A Phaser 3 Project Template using ES6 Javascript and Webpack",
+    "main": "src/game.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack serve --open",
+        "watch": "webpack --watch"
+    },
+    "author": "Johnathan 'Enigmanark' Crocker",
+    "license": "MIT",
+    "dependencies": {
+        "lodash": "^4.17.20"
+    },
+    "devDependencies": {
+        "phaser": "^3.70.0",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^4.15.1"
+    }
+}
